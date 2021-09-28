@@ -1,6 +1,6 @@
 import { MessageEmbed } from "discord.js";
 import { ICommand } from "wokcommands";
-import scholar from "./scholar.json";
+import scholar from "../document/scholar.json";
 import axios from 'axios';
 
 export default {
