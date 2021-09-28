@@ -4,7 +4,7 @@ import scholar from "./scholar.json";
 import axios from 'axios';
 
 export default {
-    category: 'scholar',
+    category: 'scholarinfo',
     description: 'Replies with your AxieExplained Scholarship Account Info',
 
     slash: 'both',
