@@ -31,6 +31,7 @@ export default {
                         const lastupdate = jsondata.data.cache_last_updated;
                         const ingameslp = jsondata.data.in_game_slp;
                         const lifetimeslp = jsondata.data.lifetime_slp;
+                        const totalslp = jsondata.data.total_slp;
                         const name = jsondata.data.name;
                         const mmr = jsondata.data.mmr;
                         const rank = jsondata.data.rank;
@@ -41,6 +42,7 @@ export default {
                         .addField('MMR', JSON.stringify(mmr), true)
                         .addField('Rank', JSON.stringify(rank), true)
                         .addField('SLP', JSON.stringify(ingameslp), true)
+                        .addField('Total SLP', JSON.stringify(totalslp), true)
                         .addField('Life Times SLP', JSON.stringify(lifetimeslp), true)
                         .setTimestamp(lastupdate);
                         message.reply({
