@@ -40,7 +40,7 @@ export default {
                         .setAuthor(JSON.stringify(name))
                         .addField('MMR', JSON.stringify(mmr), true)
                         .addField('Rank', JSON.stringify(rank), true)
-                        .addField('In Game SLP', JSON.stringify(ingameslp), true)
+                        .addField('SLP', JSON.stringify(ingameslp), true)
                         .addField('Life Times SLP', JSON.stringify(lifetimeslp), true)
                         .setTimestamp(lastupdate);
                         message.reply({
