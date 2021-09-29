@@ -7,7 +7,7 @@ export default {
     category: 'scholarinfo',
     description: 'Replies with your AxieExplained Scholarship Account Info',
 
-    slash: 'both',
+    slash: true,
     testOnly: true,
 
     callback: ({interaction: message}) => {
