@@ -13,7 +13,7 @@ const client = new DiscordJS.Client({
 
 client.on('ready', () => {
     console.log('The bot is ready')
-
+    client.user?.setActivity("/scholarinfo", {type: "LISTENING"})
     new WOKCommands(client, {
         commandDir: path.join(__dirname, 'commands'),
         typeScript: true,
