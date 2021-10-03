@@ -51,12 +51,12 @@ export default {
                 });
         } else {
             message.reply({
-                content: 'Sorry your account is not listed yet, please try again later!'
+                content: `Sorry your account is not listed yet, please contact <@307165284966334467> and then try to call the interaction again!`
             })
         }
     }else {
         message.reply({
-            content: 'Sorry your account is not listed yet, please try again later!'
+            content: `Sorry your account is not listed yet, please contact <@307165284966334467> and then try to call the interaction again!`
         })
     }
 
