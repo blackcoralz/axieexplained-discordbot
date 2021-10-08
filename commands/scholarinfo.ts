@@ -41,9 +41,9 @@ export default {
                         .setAuthor(JSON.stringify(name))
                         .addField('MMR', JSON.stringify(mmr), true)
                         .addField('Rank', JSON.stringify(rank), true)
-                        .addField('SLP', JSON.stringify(ingameslp), true)
-                        .addField('Total SLP', JSON.stringify(totalslp), true)
-                        .addField('Life Times SLP', JSON.stringify(lifetimeslp), true)
+                        .addField('In Game SLP', JSON.stringify(ingameslp), true)
+                        .addField('SLP On Account', JSON.stringify(totalslp), true)
+                        .addField('Withdrawn SLP', JSON.stringify(lifetimeslp), true)
                         .setTimestamp(lastupdate);
                         message.reply({
                         embeds: [embed]
