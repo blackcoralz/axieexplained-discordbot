@@ -43,7 +43,7 @@ export default {
                         .addField('Rank', rank, true)
                         .addField('In Game SLP', ingameslp, true)
                         .addField('SLP On Account', totalslp, true)
-                        .addField('Withdrawn SLP', lifetimeslp, true)
+                        .addField('Claimed SLP', lifetimeslp, true)
                         .setTimestamp(lastupdate);
                         message.reply({
                         embeds: [embed]
