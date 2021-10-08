@@ -29,21 +29,21 @@ export default {
             axios.get(`https://game-api.axie.technology/api/v1/${memberronin}`)
                 .then(jsondata => {
                         const lastupdate = jsondata.data.cache_last_updated;
-                        const ingameslp = jsondata.data.in_game_slp;
-                        const lifetimeslp = jsondata.data.lifetime_slp;
-                        const totalslp = jsondata.data.total_slp;
+                        const ingameslp = new Intl.NumberFormat().format(jsondata.data.in_game_slp);
+                        const lifetimeslp = new Intl.NumberFormat().format(jsondata.data.lifetime_slp);
+                        const totalslp = new Intl.NumberFormat().format(jsondata.data.total_slp);
                         const name = jsondata.data.name;
-                        const mmr = jsondata.data.mmr;
-                        const rank = jsondata.data.rank;
+                        const mmr = new Intl.NumberFormat().format(jsondata.data.mmr);
+                        const rank = new Intl.NumberFormat().format(jsondata.data.rank);
                         const embed = new MessageEmbed()
                         .setTitle('Axie Explained Scholarship Account')
                         .setColor("BLUE")
                         .setAuthor(JSON.stringify(name))
-                        .addField('MMR', JSON.stringify(mmr), true)
-                        .addField('Rank', JSON.stringify(rank), true)
-                        .addField('In Game SLP', JSON.stringify(ingameslp), true)
-                        .addField('SLP On Account', JSON.stringify(totalslp), true)
-                        .addField('Withdrawn SLP', JSON.stringify(lifetimeslp), true)
+                        .addField('MMR', mmr, true)
+                        .addField('Rank', rank, true)
+                        .addField('In Game SLP', ingameslp, true)
+                        .addField('SLP On Account', totalslp, true)
+                        .addField('Withdrawn SLP', lifetimeslp, true)
                         .setTimestamp(lastupdate);
                         message.reply({
                         embeds: [embed]
