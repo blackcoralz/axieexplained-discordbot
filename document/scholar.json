@@ -185,8 +185,8 @@
     },
     {
         "Name": "snoop",
-        "discord_username": "AE | Snoop-XE (^._.^)ﾉ#5043",
-        "user_id": "481770863226781698",
+        "discord_username": "Meg#6024",
+        "user_id": "816312216923668541",
         "ronin_address": "0x9104cec40566c242b2a94b71eb7c99c52b150101"
     },
     {
@@ -610,10 +610,5 @@
         "discord_username": "shookstogo#1916",
         "user_id": "461573594988937240",
         "ronin_address": "0xde39fbfd88ddfad4e657e4016d2ae7011bcee9c3"
-    },
-    {
-        "discord_username": "Meg#6024",
-        "user_id": "816312216923668541",
-        "ronin_address": "0x63e7c7caf1da05649c0e9e7d0ec0d08374ab0c86"
     }
 ]
