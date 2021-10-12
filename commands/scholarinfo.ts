@@ -1,4 +1,4 @@
-import { MessageEmbed } from "discord.js";
+import { Interaction, MessageEmbed } from "discord.js";
 import { ICommand } from "wokcommands";
 import scholar from "../document/scholar.json";
 import axios from 'axios';
