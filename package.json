@@ -7,6 +7,10 @@
     "serve": "tsc index.ts -w & pm2 start index.ts --watch",
     "start": "ts-node index.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackcoralz/axieexplained-discordbot.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
