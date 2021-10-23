@@ -10,7 +10,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/blackcoralz/axieexplained-discordbot.git"
-  },
+  },"engines": {
+    "node": "16.x",
+    "npm": "7.x"
+ },
   "keywords": [],
   "author": "",
   "license": "ISC",
