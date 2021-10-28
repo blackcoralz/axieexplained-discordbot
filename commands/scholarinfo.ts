@@ -26,6 +26,7 @@ export default {
         if(scholaruser){
         if(is_found){
             let memberronin = scholaruser["ronin_address"]
+            const newmemberronin = memberronin.replace('0x','ronin:')
             axios.get(`https://game-api.axie.technology/api/v1/${memberronin}`)
                 .then(jsondata => {
                         const lastupdate = jsondata.data.cache_last_updated;
@@ -39,6 +40,7 @@ export default {
                         .setTitle('Axie Explained Scholarship Account')
                         .setColor("BLUE")
                         .setAuthor(JSON.stringify(name))
+                        .setDescription(`[My Axies](https://marketplace.axieinfinity.com/profile/${newmemberronin}/axie)`)
                         .addField('MMR', mmr, true)
                         .addField('Rank', rank, true)
                         .addField('In Game SLP', ingameslp, true)
