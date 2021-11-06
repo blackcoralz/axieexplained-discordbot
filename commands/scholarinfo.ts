@@ -53,12 +53,12 @@ export default {
                 });
         } else {
             message.reply({
-                content: `Sorry your account is not listed yet, please contact <@307165284966334467> and then try to call the interaction again!`
+                content: `Sorry your account is not listed yet, please contact <@307165284966334467>, send your scholar ronin address on his DM and then try to call the interaction again, this process is 100% safe!`
             })
         }
     }else {
         message.reply({
-            content: `Sorry your account is not listed yet, please contact <@307165284966334467> and then try to call the interaction again!`
+            content: `Sorry your account is not listed yet, please contact <@307165284966334467>, send your scholar ronin address on his DM  and then try to call the interaction again, this process is 100% safe!`
         })
     }
 
