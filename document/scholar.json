@@ -642,5 +642,15 @@
         "discord_username": "Bjorn#1034",
         "user_id": "872896298238476359",
         "ronin_address": "0x335c28794c35c9d377e2fbf8e1ec148f1894530b"
+    },
+    {
+        "discord_username": "NoGameNoLife#3746",
+        "user_id": "800031163640840203",
+        "ronin_address": "0xfb9528825e9250323863ed0ef050d9640250f434"
+    },
+    {
+        "discord_username": "",
+        "user_id": "565107504783032320",
+        "ronin_address": "494ce903e5e9cbc8e6af07e7366955241efc7276"
     }
 ]
